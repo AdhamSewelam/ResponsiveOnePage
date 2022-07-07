@@ -1,0 +1,357 @@
+body
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+.fs-16
+{
+    font-size: 16px;
+}
+.fw-600
+{
+    font-weight: 600;
+}
+.main-color
+{
+    color: #666666;
+}
+.main-color1
+{
+    color: #999999;
+}
+.main-color2
+{
+    color: #f25454;
+}
+.main-font
+{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.fixed-block
+{
+    background-color: #1f2528;
+    width: 40px;
+    height: 40px; 
+    top: 20%;
+    left: 0;
+    z-index: 999;
+    transition: all 0.5s;
+}
+.fixed-block:hover
+{
+    background-color: #2c3336;
+}
+
+
+.navbar
+{
+    height: 86px;
+    z-index: 999;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+}
+.navbar ul li
+{
+    padding: 0 7.5px;
+}
+.navbar ul li a
+{
+    position: relative;
+}
+.home
+{
+    color: #f25454 !important;
+}
+.nav-item a
+{
+    transition: all 0.5s;
+}
+.nav-item a:hover
+{
+    color: #f25454 !important;
+}
+
+
+.slide1
+{
+    background-image: url(../images/slideshow-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.slide2
+{
+    background-image: url(../images/slideshow-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.slide3
+{
+    background-image: url(../images/slideshow-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#home .carousel-control-prev
+{
+    width: 50px;
+    height: 55px;
+    top: 40%;
+}
+#home .carousel-control-next
+{
+    width: 50px;
+    left: 0px;
+    height: 55px;
+    top: 50%;
+}
+#home .carousel-caption
+{
+    align-items: center !important;
+}
+h1
+{
+    font-size: 70px;
+}
+
+
+
+#about, #team, .client 
+{
+    padding: 100px;
+}
+.text-about h2, .text-team h2, .text-services h2, .text-client h2, .text-contact h2
+{
+    font-size: 38px;
+}
+.text-about h2::before
+{
+    content:"A";
+    position: absolute;
+    font-size: 2em;
+    opacity: 0.1;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.brdr
+{
+    width: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.brdr:hover
+{
+    width: 80px;
+}
+.para
+{
+    font-size: 18px
+}
+#about .left
+{
+    font-size: 14px; 
+    line-height: 1.75em;
+}
+
+
+
+
+.text-team h2::before
+{
+    content:"O";
+    position: absolute;
+    font-size: 2em;
+    opacity: 0.1;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.back
+{
+    background-color: rgba(242, 84, 84, 0.85);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.pic-1:hover .back, .pic-2:hover .back, .pic-3:hover .back, .pic-4:hover .back
+{
+    opacity: 1;
+}
+.back-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#team button
+{
+    padding: 15px 30px;
+    font-size: 14px;
+    background-color: #f25454;
+}
+#team button:hover
+{
+    background-color: #f89191;
+}
+
+
+
+
+#services, #contact
+{
+    padding: 100px 0;
+    background-color: #FAFAFA;
+}
+.text-services h2::before
+{
+    content:"S";
+    position: absolute;
+    font-size: 2em;
+    opacity: 0.1;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+#services h5
+{
+    transition: all 0.5s;
+}
+#services h5:hover
+{
+    color: #f25454;
+}
+
+
+
+
+
+
+.client
+{
+    height: 90vh;
+    overflow: auto;
+}
+.text-client h2::before
+{
+    content:"C";
+    position: absolute;
+    font-size: 2em;
+    opacity: 0.1;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+.client .carousel-indicators img
+{
+    width: 80px !important;
+    height: 80px !important;
+}
+.client .carousel-indicators
+{
+    position: absolute;
+    top: 0%;
+}
+.client .carousel-inner
+{
+    position: relative;
+    top: 120px;
+}
+.cap-3
+{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+.client h5
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-contact h2::before
+{
+    content:"G";
+    position: absolute;
+    font-size: 2em;
+    opacity: 0.1;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+#contact .right-contact input::placeholder
+{
+    color: #999999;
+}
+#contact button
+{
+    padding: 15px 30px;
+    font-size: 14px;
+    background-color: #f25454;
+    transition: all 0.5s;
+    border: none;
+}
+#contact button:hover
+{
+    background-color: #f89191;
+}
+
+
+
+.ending
+{
+    padding: 60px 0;
+    background-image: url(../images/dotted-map.png);
+    background-color: #222;
+    background-size: contain;
+}
+.ending .sections a
+{
+    transition: all 0.3s;
+}
+.ending .sections a:hover
+{
+    color: #f25454;
+}
+.ending .sections button
+{
+    background-color: transparent;
+    border: 2px solid #999999;
+    transition: all 0.3s;
+    color: #B0B0B0;
+    font-size: 14px;
+}
+.ending .sections button:hover
+{
+    color: #f25454;
+    border: 2px solid #f25454;
+}
+.ending h3
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.ending2
+{
+    background-color: #1A1A1A;
+    padding: 30px 0;
+}
+.ending2 .left i
+{
+    transition: all 0.3s;
+}
+.ending2 .right a
+{
+    color: white;
+    transition: all 0.3s;
+}
+.ending2 .left i:hover, .ending2 .right a:hover
+{
+    color: #f25454;
+}
